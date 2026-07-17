@@ -17,7 +17,7 @@ export default function Tomorrow() {
             <span className="bg-[#DDF3D6] dark:text-black px-3 rounded-full">today</span>
           </h2>
 
-          <p className="mt-6 text-gray-600 dark:text-white">
+          <p className="mt-6">
             We are a team of strategists, designers communicators, researchers.{" "}
             <br /> Together, we believe that progress only happens when you
             refuse <br /> to play things safe.
@@ -39,7 +39,7 @@ export default function Tomorrow() {
           <img
             src="/Tomorrow1.png"
             alt="image"
-            className="w-[400px] h-[400px] lg:w-[600px] lg:h-[600px] rounded-full object-cover z-30"
+            className="md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px] rounded-full object-cover z-30"
           />
 
           <div className="absolute top-2 lg:top-8 right-7 lg:right-24 w-20 h-20 bg-[#FF6B6B] -rotate-8"></div>
@@ -51,7 +51,7 @@ export default function Tomorrow() {
           <img
             src="/Tomorrow2.png"
             alt="image"
-            className="w-[400px] h-[400px] lg:w-[600px] lg:h-[600px] rounded-full object-cover z-30"
+            className="md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px] rounded-full object-cover z-30"
           />
           <div
             className="absolute top-0 -left-2 lg:left-20 rotate-[-8deg]"
@@ -83,7 +83,7 @@ export default function Tomorrow() {
             help you progress
           </h2>
 
-          <p className="pt-6 text-gray-600 dark:text-white">
+          <p className="pt-6">
             We add a layer of fearless insights and action that allows change{" "}
             <br /> makers to accelerate their progress in areas such as brand,
             design <br />

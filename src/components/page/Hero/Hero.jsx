@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden pt-12 lg:pt-20 lg:pb-20">
-      <div className="absolute left-0 top-40 lg:top-72">
+      <div className="hidden md:block absolute left-0 top-40 lg:top-72 ">
         <svg
           width="170"
           height="350"
@@ -33,7 +33,7 @@ export default function Hero() {
           />
         </svg>
       </div>
-      <div className=" px-10">
+      <div className=" md:px-10">
         <div className="text-center">
           <div className="relative" data-aos="fade-right">
             <motion.span
@@ -42,7 +42,7 @@ export default function Hero() {
               }}
               transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
             >
-              <h1 className="text-7xl lg:text-8xl hero-font">
+              <h1 className="text-4xl md:text-7xl lg:text-8xl hero-font">
                 The thinkers and
                 <br />
                 doers were ch
@@ -57,17 +57,17 @@ export default function Hero() {
                 {""} Quo with
               </h1>
             </motion.span>
-            <div className="absolute right-1 lg:right-90 top-12 lg:top-28">
+            <div className="hidden md:block absolute right-1 lg:right-90 top-12 lg:top-28">
               <div className="w-16 h-28 bg-[#7C3AED] rounded-r-full rounded-br-full rotate-[25deg]"></div>
             </div>
           </div>
-          <p className="text-xl lg:text-2xl pt-8 text-gray-600 dark:text-white">
+          <p className="text-xl lg:text-2xl pt-8">
             We are a team of strategists, designers communicators, researchers.
             Together, <br /> we believe that progress only happens when you
             refuse to play things safe.
           </p>
         </div>
-        <div className="relative mt-24 h-[430px] ">
+        <div className="relative mt-7 md:mt-24 h-[430px] ">
           <img
             src="/hero1.png"
             className="absolute left-0 top-24 lg:top-28 w-28 h-28 lg:w-56 lg:h-56 rounded-full object-cover shadow-lg"

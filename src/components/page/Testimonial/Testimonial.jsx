@@ -7,7 +7,7 @@ export default function Testimonial() {
 
       <div className="text-center mb-20" data-aos="fade-left"
      data-aos-offset="200">
-        <h2 className="text-5xl lg:text-6xl hero-font leading-tight">
+        <h2 className="text-3xl md:text-5xl lg:text-6xl hero-font leading-tight">
           <span className="bg-[#DDF3D6] dark:text-black px-4 rounded-full">What</span> our customer<br />says About Us
         </h2>
       </div>
