@@ -5,7 +5,8 @@ export default function Testimonial() {
   return (
     <section className="my-32 mx-5 lg:mx-10 relative overflow-hidden">
 
-      <div className="text-center mb-20">
+      <div className="text-center mb-20" data-aos="fade-left"
+     data-aos-offset="200">
         <h2 className="text-5xl lg:text-6xl hero-font leading-tight">
           <span className="bg-[#DDF3D6] dark:text-black px-4 rounded-full">What</span> our customer<br />says About Us
         </h2>

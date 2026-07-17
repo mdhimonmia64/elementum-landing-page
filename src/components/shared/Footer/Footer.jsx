@@ -4,36 +4,35 @@ import { NavLink } from "react-router";
 export default function Footer() {
   return (
     <footer className="relative bg-[#D7EEDD] overflow-hidden">
-     
-      <div className="absolute right-32 top-44 lg:top-52">
-        <div className="w-16 h-28 lg:w-24 lg:h-40 bg-[#7C3AED] rounded-r-full rounded-br-full -rotate-[150deg]"></div>
+      <div className="absolute right-10 top-8 md:right-32  md:top-44 lg:top-52">
+        <div className="w-8 h-14 md:w-16 md:h-28 lg:w-24 lg:h-40 bg-[#7C3AED] rounded-r-full rounded-br-full -rotate-[150deg]"></div>
       </div>
       <div className="container mx-auto px-6">
         <div className="text-center pt-24 relative">
-           <img
-        src="/footerback.png"
-        alt=""
-        className="absolute top-0 right-[53%] w-40"
-      />
-      <img
-        src="/footerback.png"
-        alt=""
-        className="absolute top-0 right-[48%] w-40"
-      />
-          <h2 className="text-7xl lg:text-8xl hero-font leading-none text-black pt-4">
+          <img
+            src="/footerback.png"
+            alt=""
+            className="absolute top-0 right-[40%] md:right-[53%] w-36 md:w-40"
+          />
+          <img
+            src="/footerback.png"
+            alt=""
+            className="absolute top-0 right-[30%] md:right-[48%] w-36 md:w-40"
+          />
+          <h2 className="text-5xl md:text-7xl lg:text-8xl hero-font leading-none text-black pt-4">
             Subscribe to
             <br />
             our newsletter
           </h2>
-          <p className="mt-6 text-gray-700">
+          <p className="my-6 text-gray-700">
             To make your stay special and even more memorable
           </p>
-          <button className="mt-8 bg-black text-white px-8 py-4 rounded-full hover:bg-gray-900 duration-300">
+          <button className=" bg-black text-white px-3 md:px-8 py-2 md:py-4 rounded-full hover:bg-gray-900 duration-300">
             Subscribe Now
           </button>
         </div>
-        <div className="border-t border-gray-500 mt-24"></div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-14 py-20">
+        <div className="border-t border-gray-500 mt-10 md:mt-24"></div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-14 py-8 md:py-20">
           <div>
             <h3 className="hero-font text-3xl mb-8 text-black">Company</h3>
 

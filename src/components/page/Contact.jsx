@@ -21,9 +21,9 @@ export default function Contact() {
 
   return (
     <div className="bg-base-100 text-base-content">
-      <section className="max-w-7xl mx-auto px-6 pt-20">
+      <section className="container mx-auto px-6 pt-10 md:pt-20">
         <div className="text-center">
-          <h1 className="text-5xl lg:text-7xl hero-font mt-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl hero-font md:mt-6 leading-tight" data-aos="zoom-out-down">
             Let's build something{" "}
             <span className="bg-[#DDF3D6] rounded-full px-5 text-black">
               amazing
@@ -31,17 +31,17 @@ export default function Contact() {
             <br />
             together.
           </h1>
-          <p className="mt-8 text-lg leading-8">
+          <p className="md:pt-8 text-lg leading-8">
             Whether you're starting a new project or simply have a question,
             we'd love to hear from you. <br /> Our team is always ready to help.
           </p>
         </div>
       </section>
-      <section className="max-w-7xl mx-auto px-6 py-24">
+      <section className="container mx-auto px-4 md:px-6 py-10 md:py-24">
         <div className="grid lg:grid-cols-2 gap-16">
-          <div className="card bg-base-200 shadow-2xl">
-            <div className="card-body p-10">
-              <h2 className="text-4xl hero-font text-center">Send a Message</h2>
+          <div className="card bg-base-200 shadow-2xl" data-aos="zoom-in-right">
+            <div className="card-body p-5 md:p-8 lg:p-10">
+              <h2 className="text-3xl md:text-4xl hero-font text-center">Send a Message</h2>
               <p className="pb-6 text-center">
                 Fill out the form below and we'll get back to you soon.
               </p>
@@ -80,7 +80,7 @@ export default function Contact() {
                 </div>
 
                 <select
-                  defaultValue=" "
+                  defaultValue=""
                   className="select select-bordered w-full"
                   required
                 >
@@ -109,29 +109,29 @@ export default function Contact() {
                   className="textarea textarea-bordered w-full"
                 ></textarea>
 
-                <label className="label cursor-pointer justify-start gap-3">
+                <label className="flex items-start gap-3 flex-wrap">
                   <input
                     type="checkbox"
                     className="checkbox checkbox-primary"
                     required
                   />
 
-                  <span>
+                  <span >
                     I agree to the Privacy Policy and Terms of Service.
                   </span>
                 </label>
                   <br />
                 <button
                   type="submit"
-                  className="btn btn-primary rounded-full  px-4"
+                  className="btn btn-primary rounded-full w-full md:w-auto"
                 >
                   Send Message <GoArrowRight size={25}/>
                 </button>
               </form>
             </div>
           </div>
-          <div>
-            <h2 className="text-4xl lg:text-5xl hero-font lg:mt-5">
+          <div data-aos="zoom-in-left">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl hero-font lg:mt-5">
               We'd love to hear from you.
             </h2>
             <p className="pt-2 lg:pt-8 text-lg leading-8">

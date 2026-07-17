@@ -4,11 +4,13 @@ export default function Offer() {
   return (
     <section className="px-6 lg:container mx-auto mt-48 mb-20">
         <div className="flex items-center relative">
-          <h1 className="text-6xl lg:text-8xl hero-font pb-10">
+          <h1 className="text-6xl lg:text-8xl hero-font pb-10" data-aos="fade-up"
+     data-aos-offset="200">
             What We <span className="bg-[#DDF3D6] dark:text-black px-5 rounded-full">can</span>
             <br /> offer you!
           </h1>
-          <img className="md:w-[500px] lg:w-[864px] absolute right-[-60px] bottom-9" src="/backimage1.png" alt="background image" />
+          <img data-aos="fade-down"
+     data-aos-offset="200" className="md:w-[500px] lg:w-[864px] absolute right-[-60px] bottom-9" src="/backimage1.png" alt="background image" />
         </div>
         <div>
           <div className="collapse collapse-arrow bg-base-100 border border-base-300">
